@@ -1,0 +1,93 @@
+{
+  "name": "stylehub-ecommerce",
+  "version": "1.0.0",
+  "description": "A modern, responsive e-commerce website for clothing businesses with full customer and admin functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'No build process required - static HTML/CSS/JS files'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'",
+    "format": "prettier --write '*.{html,css,js,md}'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "ecommerce",
+    "fashion",
+    "clothing",
+    "responsive",
+    "shopping-cart",
+    "admin-panel",
+    "payment-methods",
+    "html5",
+    "css3",
+    "javascript",
+    "vanilla-js"
+  ],
+  "author": "StyleHub Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/stylehub-ecommerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/stylehub-ecommerce/issues"
+  },
+  "homepage": "https://github.com/yourusername/stylehub-ecommerce#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "dependencies": {},
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "README.md",
+    "package.json"
+  ],
+  "directories": {
+    "lib": ".",
+    "test": "test",
+    "docs": "docs"
+  },
+  "config": {
+    "port": 3000
+  },
+  "preferGlobal": false,
+  "bin": {},
+  "man": [],
+  "contributors": [],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/yourusername"
+  }
+}
